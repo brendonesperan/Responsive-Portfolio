@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+}
+
+.header-content {
+    width: 960;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    background-color: #595c5e;
+    color: white;
+    padding: 20;
+    margin: 0 auto;
+    float: left;
+    height: 83px;
+}
+
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 700px;
+}
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-size: 20px;
+    color: #777777;
+    clear: both;
+    padding-bottom: 40px;
+}
+
+.context {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+
+h2 {
+    clear: both;
+    padding-top: 30px;
+    color: 595c5e;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+img {
+    height: 270px;
+    width: 480px;
+    float: left;
+}
+
+#portfolio-pic {
+    padding-right: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 35px;
+    background-color: #666666;
+    color: white;
+    border-top: 10px;
+    border-top-color: 595c5e;
+}
+
+/* ** Contact Info Page ** */
+
+.name {
+    width: 100%;
+    height: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.email {
+    width: 100%;
+    height: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.contact-button {
+    background-color: 595c5e;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 8px;
+    font-size: 20px;
+}
+
+/* ** Portfolio Page ** */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-box {
+    padding: 0px;
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+
+.flex-label {
+    background-color: 595c5e;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+
+.portfolio-images {
+    height: 100px;
+    width: 100px;
+}
