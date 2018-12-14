@@ -83,7 +83,11 @@ footer {
     border-top-color: 595c5e;
 }
 
-/* ** Contact Info Page ** */
+
+
+
+
+/* Contact */
 
 .name {
     width: 100%;
@@ -126,7 +130,11 @@ textarea {
     font-size: 20px;
 }
 
-/* ** Portfolio Page ** */
+
+
+
+
+/* Portfolio */
 
 .flex-container {
     display: flex;
@@ -163,4 +171,64 @@ textarea {
 .portfolio-images {
     height: 100px;
     width: 100px;
+}
+
+
+
+
+
+/* (responsive code) */
+
+@media screen and (max-width: 640px) {
+
+    img {
+        width: 100%;
+    }
+
+    .header-content{
+        background-color: white;
+        width: auto;
+        height: 175px;
+    }
+
+    h1 {
+        width: 640px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    nav{
+        float: left;
+        margin-left: 200px;
+        background-color: white;
+    }
+
+    .context {  
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        float: left;
+        margin-left: 150px;
+        background-color: white;
+    }
+
+    header{
+        background-color: white;
+        height: 83px;
+    }
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .context{
+        margin-left: 40px;
+        width: 75%;
+    }
 }
